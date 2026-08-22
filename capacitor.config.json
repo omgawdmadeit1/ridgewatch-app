@@ -1,0 +1,42 @@
+{
+  "appId": "com.lvlltd.ridgewatch",
+  "appName": "Ridgewatch",
+  "webDir": "native-shell",
+  "backgroundColor": "#0c1014",
+  "server": {
+    "url": "https://ridgewatch.grok.me",
+    "cleartext": false,
+    "allowNavigation": [
+      "*.grok.me",
+      "grok.me",
+      "*.vercel.app",
+      "fonts.googleapis.com",
+      "fonts.gstatic.com"
+    ]
+  },
+  "ios": {
+    "contentInset": "never",
+    "preferredContentMode": "mobile",
+    "scheme": "Ridgewatch",
+    "backgroundColor": "#0c1014",
+    "allowsLinkPreview": false,
+    "scrollEnabled": false
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 900,
+      "launchAutoHide": true,
+      "backgroundColor": "#0c1014",
+      "showSpinner": false,
+      "splashFullScreen": true,
+      "splashImmersive": true
+    },
+    "StatusBar": {
+      "style": "DARK",
+      "backgroundColor": "#0c1014"
+    },
+    "Keyboard": {
+      "resize": "none"
+    }
+  }
+}
